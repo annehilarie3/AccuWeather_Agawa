@@ -12,9 +12,22 @@
         <input type="text" id="cityInput" placeholder="Enter city name" required>
         <button type="submit">Get Weather</button>
     </form>
-    <div id="weather">
-        <!-- Weather data will be inserted here -->
+    <div class="weather-container">
+        <div id="weather" class="content">
+            <h2>Current Weather</h2>
+            <div id="currentWeather"></div>
+        </div>
+        <div id="hourlyforecast" class="content">
+            <h2>Hourly Forecast</h2>
+            <div id="hourlyForecast"></div>
+        </div>
+        <div id="dailyforecast" class="content">
+            <h2>5 Days Forecast</h2>
+            <div id="dailyForecast" class="daily-forecast-container"></div>
+        </div>
     </div>
+    
+    
     <script src="app.js"></script>
 </body>
 </html>
